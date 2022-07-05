@@ -34,7 +34,7 @@ header {
 }
 
 article {
-    padding: 1.5rem 1.8rem;
+    padding: 1.2rem 1.8rem;
     border-radius: 3px;
 }
 
@@ -55,7 +55,7 @@ button {
     position: relative;
 }
 
-button p::before {
+button span::before {
     content: url(../images/icon-cart.svg);
     position: absolute;
     top: 50%;
