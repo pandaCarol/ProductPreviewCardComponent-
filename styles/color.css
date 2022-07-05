@@ -1,0 +1,45 @@
+:root {
+    --darkCyan-btnPrice: hsl(158, 36%, 37%);
+    --cream-bgd: hsl(30, 38%, 92%);
+    --veryDarkBlue-productName: hsl(212, 21%, 14%);
+    --darkGrayishblue-txt: hsl(228, 12%, 48%);
+    --white-mainBgd: hsl(0, 0%, 100%);
+}
+
+
+body {
+    background-color: var(--cream-bgd);
+}
+
+footer a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+main{
+    background-color: var(--white-mainBgd);
+}
+
+main > h1 {
+    color: var(--veryDarkBlue-productName);
+}
+
+section {
+    color: var(--darkGrayishblue-txt);
+}
+
+button {
+    background-color: var(--darkCyan-btnPrice);
+    color: var(--white-mainBgd);
+}
+
+.price h1 {
+    color: var(--darkCyan-btnPrice);
+}
+
+button:hover {
+    background-color: hsl(157, 37%, 19%);
+    cursor: pointer;
+}
+
+
+
