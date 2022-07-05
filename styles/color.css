@@ -11,6 +11,10 @@ body {
     background-color: var(--cream-bgd);
 }
 
+header h1 {
+    color: hsl(0, 0%, 100%, 0);
+}
+
 main div a { 
     color: hsl(228, 45%, 44%); 
 }
