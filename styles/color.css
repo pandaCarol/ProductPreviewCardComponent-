@@ -11,15 +11,15 @@ body {
     background-color: var(--cream-bgd);
 }
 
-footer a { 
+main div a { 
     color: hsl(228, 45%, 44%); 
 }
 
-main{
+article{
     background-color: var(--white-mainBgd);
 }
 
-main > h1 {
+article > h1 {
     color: var(--veryDarkBlue-productName);
 }
 
@@ -32,7 +32,7 @@ button {
     color: var(--white-mainBgd);
 }
 
-.price h1 {
+.price h2 {
     color: var(--darkCyan-btnPrice);
 }
 

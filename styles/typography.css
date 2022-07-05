@@ -6,12 +6,12 @@
     font-size: 14px;
 }
 
-footer {
+main div {
     font-size: 11px; 
     text-align: center; 
 }
 
-main > *{
+article > *{
     font-family: 'Inter', sans-serif;
     font-weight: 500;
 }
@@ -22,7 +22,7 @@ section:first-child {
     font-size: 1.2rem;
 }
 
-main > h1, .price h1 {
+article > h1, .price h2 {
     font-family: 'Fraunces', serif;
     font-weight: 700;
     font-size: 2rem;
@@ -36,7 +36,7 @@ section:nth-child(3) {
     text-decoration-line: line-through;
 }
 
-button div:last-child {
+ul li:last-child {
     font-size: 1.2rem;
 }
 

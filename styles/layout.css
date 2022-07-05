@@ -6,7 +6,6 @@
 }
 
 body {
-    border: 1px solid black;
     height: 100vh;
 
     display: flex;
@@ -14,7 +13,7 @@ body {
     align-items: center;
 }
 
-article {
+main {
     max-width: 600px;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -22,7 +21,7 @@ article {
     overflow: hidden;
 }
 
-footer {
+main div {
     position: absolute;
     top: 95%;
     left: 50%;
@@ -34,12 +33,12 @@ header {
     background-size: 100%;
 }
 
-main {
-    padding: 1rem 1.2rem;
+article {
+    padding: 1.5rem 1.8rem;
     border-radius: 3px;
 }
 
-main > * {
+article > * {
     margin: 1rem;
 }
 
@@ -56,19 +55,16 @@ button {
     position: relative;
 }
 
-button div:first-child {
-    background-image: url(../images/icon-cart.svg);
-    background-size: 100%;
-    width: 1.2rem;
-    height: 1.2rem;
+button p::before {
+    content: url(../images/icon-cart.svg);
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    left: 18%;
+    left: 20%;
 }
 
 @media only screen and (max-width: 600px) {
-    article {
+    main {
         max-width: 320px;
         display: block;
     }
